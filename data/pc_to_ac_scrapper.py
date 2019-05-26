@@ -8,16 +8,16 @@ import re
 def cut_header_information(constituency_data: str) -> str:
     """ Return, if applicable, the string of data inputted past the table header information.
     """
-    cut_off_word = "Extent of Parliamentary Constituencies"
+    cut_off_word = "Constituencies 1"
     cut_off_index = constituency_data.find(cut_off_word)
-    return constituency_data[(cut_off_index + len(cut_off_word) + 1):] if cut_off_index != -1 else constituency_data
+    return constituency_data[(cut_off_index + len("Constituencies ")):] if cut_off_index != -1 else constituency_data
 
 
 delimitation_pdf = open(
     '../srcdata/Delimitation of Parliamentary & Assembly Constituencies Order - 2008 (English).pdf', 'rb')
 delimitation_reader = PyPDF2.PdfFileReader(delimitation_pdf)
 
-sample_page_object = delimitation_reader.getPage(29)
+sample_page_object = delimitation_reader.getPage(334)
 sample_page_read = sample_page_object.extractText()
 
 # Remove unnecessary characters or information, ie. (SC), spaces, etc.
