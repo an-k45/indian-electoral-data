@@ -6,8 +6,9 @@
 
 
 import sys
-import PyPDF2
+import csv
 import re
+import PyPDF2
 from typing import List
 
 
@@ -28,7 +29,6 @@ def make_data_parseable(constituency_data: str) -> str:
     parseable_constituencies = cut_header_information(parseable_constituencies)
     parseable_constituencies = re.sub(r"\s*-\s*", "", parseable_constituencies)
     parseable_constituencies = parseable_constituencies.replace(" and", ",")
-    # 'and' is sometimes '&'. Some constituencies use 'and' as part of their name.
 
     # Replace abbreviations.
     parseable_constituencies = parseable_constituencies.replace("Cantt.", "Cantonment")
@@ -36,12 +36,13 @@ def make_data_parseable(constituency_data: str) -> str:
     return parseable_constituencies
 
 
-def remove_numbers(constituency_lists: List[List[str]]) -> None:
-    """ Remove all numbers from the constituency lists passed.
+def remove_extra_chars(constituency_lists: List[List[str]]) -> None:
+    """ Remove all unnecessary characters from the constituency lists passed.
     """
     for i in range(len(constituency_lists)):
         for j in range(len(constituency_lists[i])):
             constituency_lists[i][j] = re.sub(r"\d*", "", constituency_lists[i][j])
+            constituency_lists[i][j] = re.sub(r"\.*", "", constituency_lists[i][j])
 
 
 def find_split_index(constituency_list: List[str]) -> int:
@@ -86,7 +87,7 @@ constituency_page_data = make_data_parseable(constituency_page_data)
 # Create a list of lists where each list has a PC and all associated AC's.
 split_constituency_data = re.split(r"\.\s+\d+", constituency_page_data)
 pc_to_ac_lists = [split_constituency_data[i].split(", ") for i in range(len(split_constituency_data))]
-remove_numbers(pc_to_ac_lists)
+remove_extra_chars(pc_to_ac_lists)
 split_first_constituency(pc_to_ac_lists)
 
 # print(pc_to_ac_lists)
@@ -95,7 +96,5 @@ for pc in pc_to_ac_lists:
 
 delimitation_pdf.close()
 
-valid_reading = input("Is this a valid reading? Y/N: ")
-if valid_reading != 'Y':
-    print("Exiting...")
-    sys.exit()
+# Here I realized Datameet had already parsed all this data. Oops.
+# https://github.com/datameet/india-election-data/blob/master/constituencies/2008-constituencies.csv
