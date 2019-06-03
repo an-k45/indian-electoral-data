@@ -44,7 +44,7 @@ def get_assembly_constituency(constituency: List[str]) -> List[Union[int, str]]:
 
 
 def main():
-    with open('2008-constituencies.csv', 'r') as cons_csv:
+    with open('../srcdata/2008-constituencies.csv', 'r') as cons_csv:
         constituencies_data = list(csv.reader(cons_csv))
     cons_csv.close()
 
