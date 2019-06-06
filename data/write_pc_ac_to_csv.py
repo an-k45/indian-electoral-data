@@ -59,8 +59,8 @@ def main():
         open('parliament.csv', 'w'), open('assembly.csv', 'w'), open('pc_to_ac.csv', 'w')
     parliament_writer, assembly_writer, pc_to_ac_writer = \
         csv.writer(parliament_csv), csv.writer(assembly_csv), csv.writer(pc_to_ac_csv)
-    parliament_writer.writerow(["ID", "CODE", "NAME", "DELIMITATION", "STATE_ID", "CATEGORY"])
-    assembly_writer.writerow(["ID", "CODE", "NAME", "DELIMITATION", "STATE_ID", "CATEGORY"])
+    parliament_writer.writerow(["ID", "NAME", "STATE_ID", "CODE", "CATEGORY", "DELIMITATION"])
+    assembly_writer.writerow(["ID", "NAME", "STATE_ID", "CODE", "CATEGORY", "DELIMITATION"])
     pc_to_ac_writer.writerow(["PC_ID", "AC_ID"])
 
     parliament_constituency_id, seen_parliamentary_constituencies = 0, []
