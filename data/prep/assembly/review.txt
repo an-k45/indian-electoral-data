@@ -1,0 +1,54 @@
+WARNING:root:AC No skipped: MANIPUR 1990: 0 to 3 -- all manipur 1990 missing
+WARNING:root:AC No skipped: MANIPUR 1990: 3 to 6
+WARNING:root:AC No skipped: MANIPUR 1990: 19 to 22
+WARNING:root:AC No skipped: RAJASTHAN 1993: 76 to 78 -- missing
+WARNING:root:AC No skipped: UTTAR PRADESH 1993: 232 to 234 
+WARNING:root:AC No skipped: UTTAR PRADESH 1993: 278 to 280
+WARNING:root:AC No skipped: UTTAR PRADESH 1993: 393 to 395
+WARNING:root:AC No skipped: ORISSA 1974: 57 to 59
+WARNING:root:AC No skipped: ASSAM 1983: 32 to 36 -- all assam missing
+WARNING:root:AC No skipped: ASSAM 1983: 64 to 67
+WARNING:root:AC No skipped: ASSAM 1983: 71 to 73
+WARNING:root:AC No skipped: ASSAM 1983: 75 to 79
+WARNING:root:AC No skipped: ASSAM 1983: 80 to 82
+WARNING:root:AC No skipped: ASSAM 1983: 98 to 100
+WARNING:root:AC No skipped: ASSAM 1983: 117 to 121
+WARNING:root:AC No skipped: ASSAM 1996: 51 to 53
+WARNING:root:AC No skipped: ASSAM 1996: 96 to 98
+WARNING:root:AC No skipped: ASSAM 1996: 103 to 105
+WARNING:root:AC No skipped: ASSAM 1996: 123 to 125
+WARNING:root:AC No skipped: MAHARASHTRA 2009: 100 to 102 -- accident, fixed.
+WARNING:root:AC No skipped: JHARKHAND 2014: 7 to 9 -- all jharkhand 2014 missing
+WARNING:root:AC No skipped: JHARKHAND 2014: 21 to 23
+WARNING:root:AC No skipped: JHARKHAND 2014: 42 to 44
+WARNING:root:AC No skipped: JHARKHAND 2014: 54 to 56
+WARNING:root:AC No skipped: JHARKHAND 2014: 74 to 76
+WARNING:root:AC No skipped: JHARKHAND 2014: 76 to 78
+WARNING:root:AC No skipped: JHARKHAND 2014: 78 to 80
+WARNING:root:AC No skipped: MAHARASHTRA 2014: 192 to 194
+WARNING:root:AC No skipped: WEST BENGAL 1971: 128 to 130
+WARNING:root:AC No skipped: MADHYA PRADESH 2008: 203 to 209
+WARNING:root:AC No skipped: UTTAR PRADESH 1991: 382 to 384
+WARNING:root:AC No skipped: UTTAR PRADESH 1991: 392 to 395
+WARNING:root:AC No skipped: UTTAR PRADESH 1991: 395 to 399
+WARNING:root:AC No skipped: ANDHRA PRADESH 2014: 287 to 289
+WARNING:root:AC No skipped: ASSAM 1972: 0 to 4
+WARNING:root:AC No skipped: ASSAM 1972: 21 to 31
+WARNING:root:AC No skipped: DELHI 1983: 29 to 31
+WARNING:root:AC No skipped: MADHYA PRADESH 2013: 203 to 209
+WARNING:root:AC No skipped: UTTAR PRADESH 1996: 384 to 386
+WARNING:root:AC No skipped: UTTAR PRADESH 1974: 206 to 208
+WARNING:root:AC No skipped: HIMACHAL PRADESH 1990: 55 to 57
+
+also:
+Andhra Pradesh, Ungutur 1967, extra 0
+Gujarat 2012, Arunachal 2014, manually write in because of images
+Gujarat 2017, missing, but unecessary because its already parsed in assembly.csv
+Jharkhand 2014, check constituency 81
+Himachal 1977, PDF needs to be rescanned
+
+merge_electors script fails:
+KEY ERROR! state: MEGHALAYA, year: 2018, ac_no: 43
+KEY ERROR! state: NAGALAND, year: 2018, ac_no: 11
+KEY ERROR! state: TAMIL NADU, year: 2016, ac_no: 134
+KEY ERROR! state: TAMIL NADU, year: 2016, ac_no: 174
