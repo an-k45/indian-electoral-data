@@ -2,14 +2,14 @@ import csv
 from typing import List, Dict
 
 
-def build_rename_dict(data: List[str], data_type: str) -> Dict[str, str]:
+def build_rename_dict(data: List[str], data_type: str) -> Dict[str, List[str]]:
     """ Take the rename pairings in format [Column, ST_NAME, Field, Value] and return a dictionary where the key is the
     incoming value and the value the target for constituencies. """
     rename_pairs = {}
     for i in range(1, len(data)):
         if data[i][0] != data_type:
             continue
-        rename_pairs[data[i][2]] = data[i][3]
+        rename_pairs[data[i][2]] = [data[i][1], data[i][3]]
     return rename_pairs
 
 
@@ -29,7 +29,10 @@ def main():
 
     for i in range(1, len(constituencies)):
         try:
-            constituencies[i][3] = rename_constituencies[constituencies[i][3]]
+            # Update the constituency only if it falls in the correct state.
+            cur_ac = constituencies[i][3]
+            constituencies[i][3] = rename_constituencies[cur_ac][1] if \
+                constituencies[i][0] == rename_constituencies[cur_ac][0].upper() else cur_ac
         except KeyError:
             pass
 
@@ -43,6 +46,11 @@ def main():
         for i in range(len(constituencies)):
             assembly_writer.writerow(constituencies[i])
     assembly_csv.close()
+
+    # TODO: Compare all constituencies from current election to the last, by AC_NO, within a delimitation period.
+
+    # 2008 onward, minus Tripura, Meghalaya, and Nagaland
+    # 1974 till 2008, including Tripura, Meghlaya, and Nagaland only
 
 
 if __name__ == "__main__":
