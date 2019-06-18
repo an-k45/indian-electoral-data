@@ -47,11 +47,6 @@ def main():
             assembly_writer.writerow(constituencies[i])
     assembly_csv.close()
 
-    # TODO: Compare all constituencies from current election to the last, by AC_NO, within a delimitation period.
-
-    # 2008 onward, minus Tripura, Meghalaya, and Nagaland
-    # 1974 till 2008, including Tripura, Meghlaya, and Nagaland only
-
 
 if __name__ == "__main__":
     main()

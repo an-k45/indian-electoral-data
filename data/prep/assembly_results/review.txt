@@ -46,6 +46,7 @@ Gujarat 2012, Arunachal 2014, manually write in because of images
 Gujarat 2017, missing, but unecessary because its already parsed in assembly.csv
 Jharkhand 2014, check constituency 81
 Himachal 1977, PDF needs to be rescanned
+delimitation changes: 1974 to 2008 including Nagaland, Tripura, and Meghlaya, 2008 onwards excluding the former three.
 
 merge_electors script fails:
 KEY ERROR! state: MEGHALAYA, year: 2018, ac_no: 43
