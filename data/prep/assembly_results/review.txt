@@ -48,6 +48,9 @@ Jharkhand 2014, check constituency 81
 Himachal 1977, PDF needs to be rescanned
 delimitation changes: 1974 to 2008 including Nagaland, Tripura, and Meghlaya, 2008 onwards excluding the former three.
 
+bihar 2005, votes not ranked properly
+
+
 merge_electors script fails:
 KEY ERROR! state: MEGHALAYA, year: 2018, ac_no: 43
 KEY ERROR! state: NAGALAND, year: 2018, ac_no: 11
