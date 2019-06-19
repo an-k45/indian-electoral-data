@@ -50,7 +50,6 @@ delimitation changes: 1974 to 2008 including Nagaland, Tripura, and Meghlaya, 20
 
 inconsistencies: 
 bihar 2005, votes not ranked properly
-various times where index 10 is equal to the party symbol instead of party abbr., and gender is dropped
 
 
 merge_electors script fails:
