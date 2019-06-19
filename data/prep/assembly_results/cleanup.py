@@ -21,6 +21,11 @@ def main():
         if re.match(r'([a-zA-Z]\s\.\s)+', constituencies[i][6]):
             constituencies[i][6] = constituencies[i][6].replace(" . ", ". ")
 
+        # Remove the party symbol where it's appeared and leave space for the gender.
+        if constituencies[i][10].upper() != constituencies[i][10] and constituencies[i][1] != "2012":
+            del constituencies[i][10]
+            constituencies[i].insert(7, '')
+
     with open("../../srcdata/assembly/assembly_results_data.csv", "w") as assembly_csv:
         assembly_writer = csv.writer(assembly_csv)
         for i in range(len(constituencies)):

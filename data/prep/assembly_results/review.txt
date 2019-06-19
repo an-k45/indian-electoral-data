@@ -48,7 +48,9 @@ Jharkhand 2014, check constituency 81
 Himachal 1977, PDF needs to be rescanned
 delimitation changes: 1974 to 2008 including Nagaland, Tripura, and Meghlaya, 2008 onwards excluding the former three.
 
+inconsistencies: 
 bihar 2005, votes not ranked properly
+various times where index 10 is equal to the party symbol instead of party abbr., and gender is dropped
 
 
 merge_electors script fails:
