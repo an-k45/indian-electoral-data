@@ -15,9 +15,12 @@ def build_override(data: List[List[str]]) -> Dict[Tuple[str, str, str, str], Lis
 def merge_constituency_data(new_data: List[str], prev_data: List[str]) -> List[str]:
     """ Return the mesh between the new and prev data such that electors are included and votes are a number value. """
     new_data[0] = new_data[0].upper()
-    new_data[11] = -1 if new_data[11] == "-" else new_data[11]
+    try:
+        new_data[11] = "" if new_data[11] == "-" else new_data[11]
+    except IndexError:
+        new_data.append("")
     new_data[1] = new_data[1] if len(new_data[1][1]) == 4 else (prev_data[1])
-    new_data.append(prev_data[12])
+    new_data.append(prev_data[12] if prev_data[12] != ":" else "")
     return new_data
 
 
@@ -37,12 +40,9 @@ def main():
     for i in range(1, len(constituencies)):
         try:
             # Fix inconsistencies by replacing them with the proper data
-            # old_data = constituencies[i].copy()
             key = (constituencies[i][0], constituencies[i][1], constituencies[i][2], constituencies[i][5])
             new_data = override[key]
             constituencies[i] = merge_constituency_data(new_data, constituencies[i])
-            # print("OLD: " + str(old_data))
-            # print("NEW: " + str(constituencies[i]))
         except KeyError:
             pass
         finally:
