@@ -28,7 +28,7 @@ def get_parliament_constituency(constituency: List[str]) -> List[Union[int, str]
             constituency[4],
             constituency[0],
             constituency[3],
-            constituency[5],
+            constituency[5] if constituency[5] != '' else 'GEN',
             2008]
 
 
@@ -39,11 +39,12 @@ def get_assembly_constituency(constituency: List[str]) -> List[Union[int, str]]:
             constituency[7],
             constituency[0],
             constituency[6],
-            constituency[8],
+            constituency[8] if constituency[8] != '' else 'GEN',
             2008]
 
 
 def main():
+    # 0:ST_CODE,1:ST_ABBR,2:ST_NAME,3:PC_CODE,4:PC_NAME,5:PC_TYPE,6:AC_CODE,7:AC_NAME,8:AC_TYPE
     with open('../srcdata/delimitation/2008-constituencies.csv', 'r') as cons_csv:
         constituencies_data = list(csv.reader(cons_csv))
     cons_csv.close()
