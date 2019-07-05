@@ -1,0 +1,44 @@
+STATE:AP:S01:ANDHRA PRADESH
+1. ARAKU (ST)                   10-Palakonda (ST), 11-Kurupam (ST), 12-Parvathipuram (SC), 13-Salur (ST), 28-Araku Valley (ST), 29-Paderu (ST), 53-Rampachodovaram (ST)
+2. SRIKAKULAM                   1-Ichchapuram,    2-Palasa,   3-Tekkali,   4-Pathapatnam, 5-Srikakulam, 6-Amadalavalasa, 8-Narasannapeta
+3. VIZIANAGARAM                 7-Etcherla, 9-Rajam (SC), 14-Bobbili, 15-Cheepurupalli, 16-Gajapathinagaram, 17-Nellimarla, 18-Vizianagaram
+4. VISAKHAPATNAM                19-Srungavarapukota, 20-Bhimli, 21-Visakhapatnam East, 22-Visakhapatnam South, 23-Visakhapatnam North, 24-Visakhapatnam West, 25-Gajuwaka
+5. ANAKAPALLE                   26-Chodavaram, 27-Madugula, 30-Anakapalle, 31-Pendurthi, 32-Yelamanchili, 33-Payakaraopet (SC), 34-Narsipatnam
+6. KAKINADA                     35-Tuni, 36-Prathipadu, 37-Pithapuram, 38-Kakinada Rural, 39-Peddapuram, 41-Kakinada City, 52-Jaggampeta
+7. AMALAPURAM (SC)              42-Ramachandrapuram, 43-Mummidivaram, 44-Amalapuram (SC), 45-Razole (SC), 46-Gannavaram (SC), 47-Kothapeta, 48-Mandapeta
+8. RAJAHMUNDRY                  40-Anaparthy, 49-Rajanagaram, 50-Rajahmundry City, 51-Rajahmundry Rural, 54-Kovvur (SC), 55-Nidadavole, 66-Gopalapuram (SC)
+9. NARSAPURAM                   56-Achanta, 57-Palacole, 58-Narsapuram, 59-Bhimavaram, 60-Undi, 61-Tanuku, 62-Tadepalligudem
+10. ELURU                       63-Unguturu, 64-Denduluru, 65-Eluru, 67-Polavaram (ST), 68-Chintalapudi (SC), 70-Nuzvid, 73-Kaikalur
+11. MACHILIPATNAM               71-Gannavaram, 72-Gudivada, 74-Pedana, 75-Machilipatnam, 76-Avanigadda, 77-Pamarru (SC), 78-Penamaluru
+12. VIJAYAWADA                  69-Tiruvuru (SC), 79-Vijayawada West, 80-Vijayawada Central, 81-Vijayawada East, 82-Mylavaram, 83-Nandigama (SC), 84-Jaggayyapeta
+13. GUNTUR                      86-Tadikonda (SC), 87-Mangalagiri, 88-Ponnuru, 91-Tenali, 93-Prathipadu (SC), 94-Guntur West, 95-Guntur East
+14. NARASARAOPET                85-Pedakurapadu, 96-Chilakaluripet, 97-Narasaraopet, 98-Sattenapalli, 99-Vinukonda, 100-Gurajala, 101-Macherla
+15. BAPATLA (SC)                89-Vemuru (SC), 90-Repalle, 92-Bapatla, 104-Parchur, 105-Addanki, 106-Chirala, 107-Santhanuthalapadu (SC)
+16. ONGOLE                      102-Yerragondapalem (SC), 103-Darsi, 108-Ongole, 110- Kondapi (SC), 111-Markapuram, 112-Giddalur, 113- Kanigiri
+17. NANDYAL                     134-Allagadda, 135-Srisailam, 136-Nandikotkur (SC), 138-Panyam, 139-Nandyal, 140-Banaganapalle, 141-Dhone
+18. KURNOOL                     137-Kurnool, 142-Pattikonda, 143-Kodumur (SC), 144-Yemmiganur, 145-Mantralayam, 146-Adoni, 147-Alur
+19. ANANTAPUR                   148-Rayadurg, 149-Uravakonda, 150-Guntakal, 151-Tadpatri, 152-Singanamala (SC) , 153-Anantapur Urban, 154-Kalyandurg
+20. HINDUPUR                    155-Raptadu, 156-Madakasira (SC), 157-Hindupur, 158- Penukonda, 159-Puttaparthi, 160-Dharmavaram, 161-Kadiri
+21. KADAPA                      124-Badvel (SC), 126-Kadapa, 129-Pulivendula, 130-Kamalapuram, 131-Jammalamadugu, 132-Proddatur, 133-Mydukur
+22. NELLORE                     109-Kandukur, 114-Kavali, 115-Atmakur, 116-Kovur, 117-Nellore City, 118-Nellore Rural, 123-Udayagiri
+23. TIRUPATI (SC)               119-Sarvepalli, 120-Gudur (SC), 121-Sullurpeta (SC), 122-Venkatagiri, 167-Tirupati, 168-Srikalahasti, 169-Satyavedu (SC)
+24. RAJAMPET                    125-Rajampet, 127-Kodur (SC), 128-Rayachoti, 162-Thamballapalle, 163-Pileru, 164-Madanapalle, 165-Punganur
+25. CHITTOOR (SC)               166-Chandragiri, 170-Nagari, 171-Gangadhara Nellore (SC), 172- Chittoor, 173-Puthalapattu (SC), 174-Palamaner, 175-Kuppam
+STATE:TS:S29:TELANGANA
+1. ADILABAD (ST)                1-Sirpur, 5-Asifabad (ST), 6-Khanapur (ST), 7-Adilabad, 8-Boath (ST), 9-Nirmal, 10-Mudhole
+2. PEDDAPALLE (SC)              2 Chennur (SC), 3 Bellampalle (SC), 4 Mancherial,22 Dharmapuri (SC), 23 Ramagundam, 24 Manthani, 25 Peddapalle
+3. KARIMNAGAR                   26-Karimnagar, 27-Choppadandi (SC), 28-Vemulawada, 29-Sircilla, 30-Manakondur (SC), 31-Huzurabad, 32-Husnabad
+4. NIZAMABAD                    11-Armur, 12-Bodhan, 17-Nizamabad (Urban), 18- Nizamabad (Rural), 19-Balkonda, 20-Koratla, 21-Jagtial
+5. ZAHIRABAD                    13 Jukkal (SC), 14 Banswada, 15 Yellareddy, 16 Kamareddy, 35 Narayankhed, 36 Andole (SC), 38 Zahirabad (SC)
+6. MEDAK                        33-Siddipet, 34-Medak, 37-Narsapur, 39-Sangareddy, 40-Patancheru, 41-Dubbak, 42 -Gajwel
+7. MALKAJGIRI                   43- Medchal, 44-Malkajgiri, 45-Qutbullapur, 46-Kukatpalle, 47-Uppal, 49-Lal Bahadur Nagar, 71-Secunderabad Cantt. (SC)
+8. SECUNDERABAD                 57 Musheerabad, 59 Amberpet, 60 Khairatabad, 61 Jubilee Hills, 62 Sanathnagar, 63 Nampally, 70 Secunderabad
+9. HYDERABAD                    58-Malakpet, 64-Karwan, 65-Goshamahal, 66-Charminar, 67-Chandrayangutta, 68-Yakutpura, 69-Bahadurpura
+10. CHEVELLA                    50-Maheswaram, 51-Rajendranagar, 52-Serilingampally, 53-Chevella (SC), 54-Pargi, 55-Vicarabad (SC), 56-Tandur
+11. MAHBUBNAGAR                 72-Kodangal, 73- Narayanpet, 74-Mahbubnagar, 75-Jadcherla, 76-Devarkadra, 77-Makthal, 84- Shadnagar
+12. NAGARKURNOOL (SC)           78 Wanaparthy, 79 Gadwal, 80 Alampur (SC), 81 Nagarkurnool, 82 Achampet (SC), 83 Kalwakurthy, 85 Kollapur
+13. NALGONDA                    86-Devarakonda(ST), 87-Nagarjuna Sagar, 88- Miryalaguda, 89- Huzurnagar, 90-Kodad, 91-Suryapet, 92-Nalgonda
+14. BHONGIR                     48 Ibrahimpatnam, 93 Munugode, 94 Bhongir, 95 Nakrekal (SC), 96 Thungathurthi (SC), 97 Alair, 98 Jangoan
+15. WARANGAL(SC)                99-Ghanpur (Station) (SC), 100-Palakurthi, 104-Parkal, 105-Warangal West, 106-Warangal East, 107-Wardhannapet (SC), 108-Bhupalpalle
+16. MAHABUBABAD (ST)            101 Dornakal (ST), 102 Mahabubabad (ST), 103 Narsampet, 109 Mulug (ST), 110 Pinapaka (ST), 111 Yellandu (ST), 119 Bhadrachalam (ST)
+17. KHAMMAM                     112-Khammam, 113-Palair, 114-Madhira (SC), 115-Wyra (ST), 116- Sathupalle (SC), 117-Kothagudem, 118-Aswaraopeta (ST)
