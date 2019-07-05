@@ -1,2 +1,0 @@
-## SOURCE
-The electoral data for the Lok Sabha, up to and including 2009, came from [DataMeet](https://github.com/datameet/india-election-data/tree/master/parliament-elections). The remaining data for the 2014 elections came from a csv made by [Santhosh Murali](https://www.kaggle.com/sanedhika/india-general-election-data-2009-and-2014). 

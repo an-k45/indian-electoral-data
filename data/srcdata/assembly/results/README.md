@@ -1,2 +1,0 @@
-## SOURCE
-This directory contains [each state election's PDF](https://eci.gov.in/statistical-report/statistical-reports/) formatted as state-year.pdf, alongside its converted text file with the same name format (ie. uttar-pradesh-2017.pdf, uttar-pradesh-2017.txt). Files are not uploaded due to size. 
